@@ -1,6 +1,8 @@
 <h1>Orbit Report</h1>
 
+
 <div class="search-form">
+	<orbit-list></orbit-list>
 	Search: <input #searchTerm type="text" (keyup.enter)="search(searchTerm.value);" name="searchTerm"/>
 	<button (click)="search(searchTerm.value);">Search</button>
 </div>
