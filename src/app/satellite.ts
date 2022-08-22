@@ -15,9 +15,12 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
-		return true;
+		return this.type.toLowerCase() === "space debris";
    }
 
+   zebraStripe(arr): boolean {
+    return arr.indexOf(this) % 2 === 0 && this.type.toLowerCase() !== 'space debris';
+	}
 }
 
 // TODO 3a: fix isSpaceDebris check
