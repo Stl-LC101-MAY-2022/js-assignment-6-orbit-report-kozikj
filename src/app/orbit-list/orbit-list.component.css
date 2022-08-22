@@ -8,12 +8,12 @@
 }
 
 table {
- color: #111;
+ color: white;
  border-radius: 5px;
  overflow: hidden;
  margin: 12px 0;
  min-width: 300px;
- background: #dad8d8;
+ background: #0ac6f0;
 }
 
 .header-row {
@@ -25,4 +25,9 @@ th, td {
 	text-align: left;
 	margin: 5px 10px;
 	padding: 6px;
+}
+
+.stripe {
+	background-color: rgb(18, 18, 105);
+	color:White;
 }
